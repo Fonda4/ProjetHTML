@@ -137,13 +137,13 @@ form button:hover {
 */
 
 /* Styles applied only to the 'page-france' main content */
-.page-france h2 {
+.page-nathan_fondimare h2 {
     color: #0056a3; /* Blue from French flag */
     border-bottom: 3px solid #ef4135; /* Red from French flag */
     padding-bottom: 5px;
 }
 
-.page-france img {
+.page-nathan_fondimare img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
@@ -152,16 +152,16 @@ form button:hover {
     margin-bottom: 15px;
 }
 
-.page-france ul {
+.page-nathan_fondimare ul {
     list-style-type: square;
     margin-left: 20px;
 }
 
-.page-france a {
+.page-nathan_fondimare a {
     color: #0056a3;
     text-decoration: none;
 }
 
-.page-france a:hover {
+.page-nathan_fondimare a:hover {
     text-decoration: underline;
 }
