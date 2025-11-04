@@ -1,0 +1,167 @@
+/* ===================================
+   COMMON STYLES (To be defined with your team [cite: 19])
+   CSS comments must be in English 
+   ===================================
+*/
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Common Header and Footer */
+header, footer {
+    background-color: #00235b; /* A dark blue */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Common Navigation Menu 
+   Must have a dynamic hover effect 
+*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden; /* Clear floats */
+    text-align: center;
+}
+
+nav li {
+    display: inline-block; /* Horizontal menu */
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* DYNAMIC HOVER EFFECT  */
+nav li a:hover {
+    background-color: #e63946; /* A contrasting red */
+    color: #ffffff;
+}
+
+/* Style for the active page link */
+nav li a.active {
+    background-color: #457b9d; /* A lighter blue */
+}
+
+/* Common Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+/* Common Form Styles */
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"], form textarea {
+    width: calc(100% - 20px); /* Adjust width for padding */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #00235b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #457b9d;
+}
+
+/* ===================================
+   SPECIFIC STYLES for [VOTRE PRENOM NOM] [cite: 55]
+   (Requirement 9: id or class for this page) [cite: 29]
+   ===================================
+*/
+
+/* Styles applied only to the 'page-france' main content */
+.page-france h2 {
+    color: #0056a3; /* Blue from French flag */
+    border-bottom: 3px solid #ef4135; /* Red from French flag */
+    padding-bottom: 5px;
+}
+
+.page-france img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 4px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.page-france ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.page-france a {
+    color: #0056a3;
+    text-decoration: none;
+}
+
+.page-france a:hover {
+    text-decoration: underline;
+}
