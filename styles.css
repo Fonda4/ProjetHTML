@@ -130,6 +130,10 @@ form button:hover {
     background-color: #457b9d;
 }
 
+form img{
+    height: 30%;
+}
+
 /* ===================================
    SPECIFIC STYLES for [VOTRE PRENOM NOM] [cite: 55]
    (Requirement 9: id or class for this page) [cite: 29]
@@ -162,6 +166,4 @@ form button:hover {
     text-decoration: none;
 }
 
-.page-nathan_fondimare a:hover {
-    text-decoration: underline;
-}
+
