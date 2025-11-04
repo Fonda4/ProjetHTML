@@ -162,6 +162,14 @@ form button:hover {
     color: #0056a3;
     text-decoration: none;
 }
+.description_about_Germany {
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-weight: normal;
+    text-align: justify;
+}
 /* ===================================
    SPECIFIC STYLES for [VOTRE PRENOM NOM] [cite: 55]
    (Requirement 9: id or class for this page) [cite: 29]
