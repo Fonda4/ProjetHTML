@@ -132,23 +132,23 @@ form button:hover {
 
 
 /* ===================================
-   SPECIFIC STYLES for [VOTRE PRENOM NOM] [cite: 55]
-   (Requirement 9: id or class for this page) [cite: 29]
+   SPECIFIC STYLES for [VOTRE PRENOM NOM] 
+   (Requirement 9: id or class for this page) 
    ===================================
 */
 
-/* Styles applied only to the 'page-france' main content */
+/* Styles applied only to the 'nathan_fondimare' main content */
 .page-nathan_fondimare h2 {
     color: #0056a3; /* Blue from French flag */
     border-bottom: 3px solid #ef4135; /* Red from French flag */
     padding-bottom: 5px;
 }
 
-.flag {
+.page-nathan_fondimare img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    border: 4px solid #ffffff;
+    border: 4px solid #ddd;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     margin-bottom: 15px;
 }
@@ -162,5 +162,17 @@ form button:hover {
     color: #0056a3;
     text-decoration: none;
 }
+
+/* Styles applied only to the 'marvin_christoph' main content */
+
+.description_about_Germany {
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-weight: normal;
+    text-align: justify;
+}
+
 
 
