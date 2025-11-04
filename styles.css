@@ -173,6 +173,17 @@ form button:hover {
     font-weight: normal;
     text-align: justify;
 }
+/* Styles applied only to the 'Abderrahmane_Ba' main content */
+.page-Abderrahmane_Ba img{
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    
+}
+
 
 
 
