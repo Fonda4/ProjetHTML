@@ -239,7 +239,7 @@ form button:hover {
 }
 
 /* Styles applied only to the 'Abderrahmane_Ba' main content */
-.page-Abderrahmane_Ba img{
+.page-Abderrahmane_Ba flag{
     width: 300px;
     height: 200px;
     border-radius: 8px;
@@ -263,6 +263,14 @@ form button:hover {
     text-decoration: none;
 
 }
+.page-Abderrahmane_Ba dashed-line {
+  border-bottom: 2px dashed #555; /* dashed = ligne coupée */
+  padding-bottom: 8px;            /* espace entre texte et ligne */
+  margin-bottom: 16px;
+  height: 300px;
+  width: 200px;
+}
+
 
 /* Styles applied only to the "fotue_tagne_ethan" main content */
 
