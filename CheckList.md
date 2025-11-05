@@ -47,7 +47,7 @@
 ✅ Valider le code sur [validator.w3.org
 ](http://validator.w3.org/)
 
-[![1762335557018](image/CheckList/1762335557018.png)
+[
 ](http://validator.w3.org/)
 
 [
