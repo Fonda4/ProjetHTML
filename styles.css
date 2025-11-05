@@ -166,8 +166,29 @@ form button:hover {
 /* Styles applied only to the 'marvin_christoph' main content */
 .description_about_Germany {
     color: rgb(61, 61, 194);
+    text-align: justify;
     
 }
+.Neuschwanstein-container {
+    overflow: hidden; /* pour contenir le float */
+    margin-bottom: 30px;
+}
+
+.Neuschwanstein-Castle {
+    width: 220px;
+    height: auto;
+    float: right;
+    margin-left: 1cm;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.description_Neuschwanstein-Castle {
+    color: rgb(61, 61, 194);
+    text-align: justify;
+}
+
 .cars_list {
     list-style-type: circle;
     background-color: #f9fcfc;
