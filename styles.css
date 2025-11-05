@@ -172,6 +172,15 @@ form button:hover {
     border-bottom: 3px solid #ffd902c3;
     padding-bottom: 5px;
 }
+/*flag*/
+.Flag_Germany {
+    width: 220px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    align-content: end;
+}
 
 .description_about_Germany {
     color: rgb(61, 61, 194);
