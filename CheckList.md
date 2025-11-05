@@ -47,6 +47,9 @@
 ✅ Valider le code sur [validator.w3.org
 ](http://validator.w3.org/)
 
+[![1762335557018](image/CheckList/1762335557018.png)
+](http://validator.w3.org/)
+
 [
 ](http://validator.w3.org/)
 
@@ -74,7 +77,6 @@
 
 ❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
 
-
 👤 Partie Shoni (par membre)
 
 ✅Créer une page HTML nommée prenom_nom.html
@@ -98,7 +100,6 @@
 ❌✅ Écrire le code et les commentaires en anglais
 
 ❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
-
 
 👤 Partie Abdul (par membre)
 
@@ -124,7 +125,6 @@
 
 ❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
 
-
 👤 Partie Logan (par membre)
 
 ✅Créer une page HTML nommée prenom_nom.html
@@ -148,7 +148,6 @@
 ❌✅ Écrire le code et les commentaires en anglais
 
 ❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
-
 
 👤 Partie Ethan (par membre)
 
