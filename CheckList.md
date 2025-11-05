@@ -4,11 +4,11 @@
 
 🔧 Partie commune (à faire ensemble)
 
-□ Créer un en-tête commun (header)
+✅ Créer un en-tête commun (header)
 
 ✅ Créer un menu commun avec effet hover (ex : passage bleu sur le menu)
 
-□ Ajouter un lien vers chaque membre dans le menu
+✅ Ajouter un lien vers chaque membre dans le menu
 
 ✅ Créer une feuille CSS commune
 
@@ -22,7 +22,7 @@
 
 ---
 
-👤 Partie individuelle (par membre)
+👤 Partie Marvin (par membre)
 
 ✅Créer une page HTML nommée prenom_nom.html
 
@@ -32,9 +32,9 @@
 
 ✅ Ajouter une image (ex : drapeau)
 
-□ Ajouter un formulaire avec au moins deux champs (commentaire)
+✅ Ajouter un formulaire avec au moins deux champs (commentaire)
 
-□ Ajouter une liste
+✅ Ajouter une liste
 
 ✅ Ajouter un lien externe
 
@@ -46,3 +46,129 @@
 
 ✅ Valider le code sur [validator.w3.org
 ](http://validator.w3.org/)
+
+[
+](http://validator.w3.org/)
+
+[
+](http://validator.w3.org/)
+
+👤 Partie Nathan (par membre)
+
+✅Créer une page HTML nommée prenom_nom.html
+
+✅ Choisir un pays différent des autres membres
+
+✅ Ajouter une table
+
+✅ Ajouter une image (ex : drapeau)
+
+✅ Ajouter un formulaire avec au moins deux champs (commentaire)
+
+✅ Ajouter une liste
+
+✅ Ajouter un lien externe
+
+✅ Ajouter un id ou une class spécifique à ta page
+
+✅ Définir un style CSS pour cet id ou class
+
+✅ Écrire le code et les commentaires en anglais
+
+❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
+
+👤 Partie Shoni (par membre)
+
+✅Créer une page HTML nommée prenom_nom.html
+
+✅ Choisir un pays différent des autres membres
+
+✅ Ajouter une table
+
+✅ Ajouter une image (ex : drapeau)
+
+❌✅ Ajouter un formulaire avec au moins deux champs (commentaire)
+
+✅ Ajouter une liste
+
+❌✅ Ajouter un lien externe
+
+❌✅ Ajouter un id ou une class spécifique à ta page
+
+❌✅ Définir un style CSS pour cet id ou class
+
+❌✅ Écrire le code et les commentaires en anglais
+
+❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
+
+👤 Partie Abdul (par membre)
+
+✅Créer une page HTML nommée prenom_nom.html
+
+✅ Choisir un pays différent des autres membres
+
+✅ Ajouter une table
+
+✅ Ajouter une image (ex : drapeau)
+
+✅ Ajouter un formulaire avec au moins deux champs (commentaire)
+
+✅ Ajouter une liste
+
+❌✅ Ajouter un lien externe
+
+✅ Ajouter un id ou une class spécifique à ta page
+
+✅ Définir un style CSS pour cet id ou class
+
+✅ Écrire le code et les commentaires en anglais
+
+❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
+
+👤 Partie Logan (par membre)
+
+✅Créer une page HTML nommée prenom_nom.html
+
+✅ Choisir un pays différent des autres membres
+
+❌✅ Ajouter une table
+
+❌✅ Ajouter une image (ex : drapeau)
+
+❌✅ Ajouter un formulaire avec au moins deux champs (commentaire)
+
+❌✅ Ajouter une liste
+
+❌✅ Ajouter un lien externe
+
+❌✅ Ajouter un id ou une class spécifique à ta page
+
+❌✅ Définir un style CSS pour cet id ou class
+
+❌✅ Écrire le code et les commentaires en anglais
+
+❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
+
+👤 Partie Ethan (par membre)
+
+✅Créer une page HTML nommée prenom_nom.html
+
+✅ Choisir un pays différent des autres membres
+
+❌✅ Ajouter une table
+
+❌✅ Ajouter une image (ex : drapeau)
+
+❌✅ Ajouter un formulaire avec au moins deux champs (commentaire)
+
+❌✅Ajouter une liste
+
+❌✅ Ajouter un lien externe
+
+❌✅ Ajouter un id ou une class spécifique à ta page
+
+❌✅ Définir un style CSS pour cet id ou class
+
+❌✅ Écrire le code et les commentaires en anglais
+
+❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
