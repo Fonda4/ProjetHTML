@@ -101,7 +101,7 @@
 
 ❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
 
-👤 Partie Abdul (par membre)
+👤 Partie Abderrahmane Ba (par membre)
 
 ✅Créer une page HTML nommée prenom_nom.html
 
@@ -117,13 +117,13 @@
 
 ❌✅ Ajouter un lien externe
 
-✅ Ajouter un id ou une class spécifique à ta page
+✅ Ajouter un id ou u ne class spécifique à ta page
 
 ✅ Définir un style CSS pour cet id ou class
 
 ✅ Écrire le code et les commentaires en anglais
 
-❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
+✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
 
 👤 Partie Logan (par membre)
 
