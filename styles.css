@@ -164,7 +164,6 @@ form button:hover {
 }
 
 /* Styles applied only to the 'marvin_christoph' main content */
-
 .description_about_Germany {
     color: blue;
     font-size: 18px;
@@ -173,6 +172,16 @@ form button:hover {
     font-weight: normal;
     text-align: justify;
 }
+.page-marvin_christoph .cars_list {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #416684;
+}
+.page-marvin_christoph .cars_list h3 {
+    color: #132f5b;
+}
+
+
 /* Styles applied only to the 'Abderrahmane_Ba' main content */
 .page-Abderrahmane_Ba img{
     width: 200px;
