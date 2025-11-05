@@ -149,10 +149,9 @@ form button:hover {
 
 .page-nathan_fondimare img {
     max-width: 100%;
-    height: auto;
+    max-height: auto;
     border-radius: 8px;
     border: 4px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     margin-bottom: 15px;
 }
 
@@ -164,6 +163,15 @@ form button:hover {
 .page-nathan_fondimare a {
     color: #0056a3;
     text-decoration: none;
+}
+.page-nathan_fondimare_Champagne img{
+    max-height: 200px;
+    float: left;
+    margin-bottom: 2%;
+
+}
+.page-nathan_fondimare_table {
+    margin-top: 2%;
 }
 
 /* Styles applied only to the 'marvin_christoph' main content */
