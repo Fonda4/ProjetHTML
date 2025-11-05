@@ -165,25 +165,33 @@ form button:hover {
 
 /* Styles applied only to the 'marvin_christoph' main content */
 .description_about_Germany {
-    color: blue;
-    font-size: 18px;
-    margin-bottom: 15px;
-    line-height: 1.6;
-    font-weight: normal;
-    text-align: justify;
+    color: rgb(61, 61, 194);
+    
 }
 .cars_list {
-    background-color: #43729c;
-    padding: 15px;
-    border-radius: 8px;
+    list-style-type: circle;
+    background-color: #f9fcfc;
+    padding: 10px;
+    border-radius: 5px;
 }
 .cars_list h3 {
     color: #132f5b;
 }
-.cars_list li {
-    margin-bottom: 8px;
+.cars_list .volkswagen {
+    color: #ffd902c3;
 }
-
+.cars_list .bmw {
+    color: #070b19;
+}
+.cars_list .mercedes {
+    color: #b1b1c0;
+}
+.cars_list .porsche {
+    color: #000000;
+}
+.cars_list .audi {
+    color: #ffe600;
+}
 
 /* Styles applied only to the 'Abderrahmane_Ba' main content */
 .page-Abderrahmane_Ba img{
