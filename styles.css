@@ -265,7 +265,14 @@ form button:hover {
 }
 
 /* Styles applied only to the "fotue_tagne_ethan" main content */
-
+.uk_flag{
+    width: 220px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    align-content: end; 
+}
 
 /* Styles applied only to the "yawo_shoni" main content */
 
