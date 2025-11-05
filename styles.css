@@ -273,8 +273,30 @@ form button:hover {
 
 
 /* Styles applied only to the "fotue_tagne_ethan" main content */
+.fotue_tagne_ethan h2{
+    border: bottom 3px solid rgb(2, 2, 86);
+}
+.uk_flag{
+    width: 220px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    align-content: end; 
+    
 
 
+}
+.castel_uk{
+    width: 220px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: justify;
+    float: right;
+    margin-right: 1cm;
+}
 /* Styles applied only to the "yawo_shoni" main content */
 
 
