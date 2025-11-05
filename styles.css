@@ -172,13 +172,16 @@ form button:hover {
     font-weight: normal;
     text-align: justify;
 }
-.page-marvin_christoph .cars_list {
+.cars_list {
     list-style-type: square;
     margin-left: 20px;
     color: #416684;
 }
-.page-marvin_christoph h3 {
+.cars_list h3 {
     color: #132f5b;
+}
+.wiki_link {
+    color: #4a4d4f;
 }
 
 
