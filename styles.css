@@ -31,6 +31,9 @@ header, footer {
     padding: 1rem;
     text-align: center;
 }
+header h1 {
+    color: rgb(156, 192, 213);
+}
 
 footer p {
     margin: 0;
@@ -146,10 +149,9 @@ form button:hover {
 
 .page-nathan_fondimare img {
     max-width: 100%;
-    height: auto;
+    max-height: auto;
     border-radius: 8px;
     border: 4px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     margin-bottom: 15px;
 }
 
@@ -162,27 +164,121 @@ form button:hover {
     color: #0056a3;
     text-decoration: none;
 }
+.page-nathan_fondimare_Champagne img{
+    max-height: 200px;
+    float: left;
+    margin-bottom: 2%;
+
+}
+.page-nathan_fondimare_table {
+    margin-top: 2%;
+}
 
 /* Styles applied only to the 'marvin_christoph' main content */
+.h2_Marvin {
+    color: #132f5b;
+    border-bottom: 3px solid #ffd902c3;
+    padding-bottom: 5px;
+}
+/*flag*/
+.Flag_Germany {
+    width: 220px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    align-content: end;
+}
 
 .description_about_Germany {
-    color: blue;
-    font-size: 18px;
-    margin-bottom: 15px;
-    line-height: 1.6;
-    font-weight: normal;
+    color: rgb(61, 61, 194);
     text-align: justify;
 }
+/*castle*/
+.Neuschwanstein-container {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.Neuschwanstein-Castle {
+    width: 220px;
+    height: auto;
+    float: right;
+    margin-left: 1cm;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.description_Neuschwanstein-Castle {
+    color: rgb(61, 61, 194);
+    text-align: justify;
+}
+/*car list*/
+.cars_list {
+    list-style-type: circle;
+    background-color: #f9fcfc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.cars_list h3 {
+    color: #132f5b;
+}
+.cars_list .volkswagen {
+    color: #ffd902c3;
+}
+.cars_list .bmw {
+    color: #070b19;
+}
+.cars_list .mercedes {
+    color: #b1b1c0;
+}
+.cars_list .porsche {
+    color: #000000;
+}
+.cars_list .audi {
+    color: #ffe600;
+}
+
 /* Styles applied only to the 'Abderrahmane_Ba' main content */
 .page-Abderrahmane_Ba img{
-    width: 200px;
-    height: auto;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #ffffff;
+    width: 300px;
+    height: 200px;
     border-radius: 8px;
-    
+    border: 4px solid #ca3737;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 15px;    
 }
+.page-Abderrahmane_Ba h2{
+    color:green; /* Blue from French flag */
+    border-bottom: 3px solid yellow; /* Red from French flag */
+    padding-bottom: 5px;
+
+}
+.page-Abderrahmane_Ba ul{
+    list-style-type: square;
+    margin-left: 20px;
+
+}
+.page-Abderrahmane_Ba a{
+    color: green;
+    text-decoration: none;
+
+}
+
+/* Styles applied only to the "fotue_tagne_ethan" main content */
+.uk_flag{
+    width: 220px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    align-content: end; 
+}
+
+/* Styles applied only to the "yawo_shoni" main content */
+
+
+/* Styles applied only to the "muco_begin_logan" main content */
+
 
 
 
