@@ -31,6 +31,9 @@ header, footer {
     padding: 1rem;
     text-align: center;
 }
+header h1 {
+    color: rgb(156, 192, 213);
+}
 
 footer p {
     margin: 0;
@@ -164,16 +167,21 @@ form button:hover {
 }
 
 /* Styles applied only to the 'marvin_christoph' main content */
+.h2_Marvin {
+    color: #132f5b;
+    border-bottom: 3px solid #ffd902c3;
+    padding-bottom: 5px;
+}
+
 .description_about_Germany {
     color: rgb(61, 61, 194);
     text-align: justify;
-    
 }
+/*castle*/
 .Neuschwanstein-container {
-    overflow: hidden; /* pour contenir le float */
+    overflow: hidden;
     margin-bottom: 30px;
 }
-
 .Neuschwanstein-Castle {
     width: 220px;
     height: auto;
@@ -183,12 +191,11 @@ form button:hover {
     margin-bottom: 10px;
     border-radius: 8px;
 }
-
 .description_Neuschwanstein-Castle {
     color: rgb(61, 61, 194);
     text-align: justify;
 }
-
+/*car list*/
 .cars_list {
     list-style-type: circle;
     background-color: #f9fcfc;
