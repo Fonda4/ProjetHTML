@@ -173,12 +173,15 @@ form button:hover {
     text-align: justify;
 }
 .cars_list {
-    list-style-type: square;
-    margin-left: 20px;
-    color: #416684;
+    background-color: #43729c;
+    padding: 15px;
+    border-radius: 8px;
 }
 .cars_list h3 {
     color: #132f5b;
+}
+.cars_list li {
+    margin-bottom: 8px;
 }
 
 
