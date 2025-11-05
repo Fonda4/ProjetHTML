@@ -166,12 +166,12 @@ form button:hover {
 }
 .page-nathan_fondimare_Champagne img{
     max-height: 200px;
-    float: left;
-    margin-bottom: 2%;
+    float: right;
+    margin-left: 2% ;
 
 }
 .page-nathan_fondimare_table {
-    margin-top: 2%;
+    margin-top: 17%;
 }
 
 /* Styles applied only to the 'marvin_christoph' main content */
