@@ -239,7 +239,7 @@ form button:hover {
 }
 
 /* Styles applied only to the 'Abderrahmane_Ba' main content */
-.page-Abderrahmane_Ba flag{
+.page-Abderrahmane_Ba .flag img{
     width: 300px;
     height: 200px;
     border-radius: 8px;
@@ -270,6 +270,15 @@ form button:hover {
   height: 300px;
   width: 200px;
 }
+.dashed-line img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+
 
 
 /* Styles applied only to the "fotue_tagne_ethan" main content */
@@ -298,7 +307,12 @@ form button:hover {
     margin-right: 1cm;
 }
 /* Styles applied only to the "yawo_shoni" main content */
-
+.Flag_Switzerland {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: right;
+}
 
 /* Styles applied only to the "muco_begin_logan" main content */
 
