@@ -307,7 +307,12 @@ form button:hover {
     margin-right: 1cm;
 }
 /* Styles applied only to the "yawo_shoni" main content */
-
+.Flag_Switzerland {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: right;
+}
 
 /* Styles applied only to the "muco_begin_logan" main content */
 
