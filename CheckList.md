@@ -115,7 +115,7 @@
 
 ✅ Ajouter une liste
 
-❌✅ Ajouter un lien externe
+✅ Ajouter un lien externe
 
 ✅ Ajouter un id ou u ne class spécifique à ta page
 
