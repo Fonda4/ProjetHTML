@@ -294,7 +294,14 @@ form button:hover {
     align-content: end; 
     
 
-
+}
+.image1_uk{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px ;
+    float: left;
 }
 .castel_uk{
     width: 220px;
