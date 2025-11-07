@@ -294,7 +294,14 @@ form button:hover {
     align-content: end; 
     
 
-
+}
+.image1_uk{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px ;
+    float: left;
 }
 .castel_uk{
     width: 220px;
@@ -310,10 +317,27 @@ form button:hover {
 .Flag_Switzerland {
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 8px;
-    text-align: right;
+    border-radius: 10px;
+    float: left;
+    margin-right: 1cm;
+    height: 200px;
 }
 
+
+.h2_Switzerland {
+    text-align: center;
+    text-shadow: 2px 2px 4px;
+    size: 200px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: darkred;
+    border: black;
+}
+
+.h3_Switzerland {
+    text-shadow: 4px 2px 4px;
+    size: 200px;
+    font-family: cursive;
+}
 /* Styles applied only to the "muco_begin_logan" main content */
 
 
