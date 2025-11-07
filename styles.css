@@ -164,7 +164,7 @@ form button:hover {
 }
 
 .page-nathan_fondimare ul {
-    list-style-type: square;
+    list-style-type: disc ;
     margin-left: 20px;
 }
 
@@ -172,14 +172,19 @@ form button:hover {
     color: #0056a3;
     text-decoration: none;
 }
-.page-nathan_fondimare_Champagne img{
+.page-nathan_fondimare_food img{
     max-height: 200px;
     float: right;
     margin-left: 2% ;
+    text-align: justify;
 
 }
+
+.page-nathan_fondimare_food a{
+    color: #016d13;
+}
 .page-nathan_fondimare_table {
-    margin-top: 17%;
+    margin-top: 10%;
 }
 
 /* Styles applied only to the 'marvin_christoph' main content */
@@ -303,14 +308,7 @@ form button:hover {
     
 
 }
-.image1_uk{
-    width: 300px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius:10px ;
-    float: left;
-}
+
 .castel_uk{
     width: 220px;
     height: auto;
@@ -320,6 +318,10 @@ form button:hover {
     text-align: justify;
     float: right;
     margin-right: 1cm;
+}
+.Big-Ben{
+    width: 300px;
+    height: 200px;
 }
 /* Styles applied only to the "yawo_shoni" main content */
 .Flag_Switzerland {
