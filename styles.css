@@ -329,6 +329,18 @@ form button:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin-bottom: 15px;
 }
+body {
+  background: linear-gradient(to bottom right, #f7fff7, #e0ffe0);
+}
+button {
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.1);
+}
+
 
 
 
