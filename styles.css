@@ -350,25 +350,17 @@ form button:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin-bottom: 15px;
 }
-body {
-  background: linear-gradient(to bottom right, #f7fff7, #e0ffe0);
-}
-button {
-  transition: all 0.3s ease;
-}
-button:hover {
-  background-color: green;
-  color: white;
-  transform: scale(1.1);
-}
-
 
 
 
 
 /* Styles applied only to the "fotue_tagne_ethan" main content */
 .fotue_tagne_ethan h2{
+<<<<<<< HEAD
     color: #080245;
+=======
+    border: bottom 3px solid rgb(2, 2, 86);
+>>>>>>> e473804158e06a45f5ec15d4e4688ed2cb0188e5
 }
 .uk_flag{
     width: 220px;
@@ -417,60 +409,9 @@ button:hover {
 
 .h3_Switzerland {
     text-shadow: 4px 2px 4px;
-    size: 400px;
+    size: 200px;
     font-family: cursive;
 }
-
-.h4_Switzerland {
-    text-shadow: 4px 2px 4px;
-    text-size-adjust: 400px;
-    font-family: cursive;
-}
-
-.li1_Switzerland {
-    text-decoration: underline;
-    text-decoration-color: #000000;
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-.li2_Switzerland {
-    text-decoration: underline;
-    text-decoration-color: #000000;
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-.li3_Switzerland {
-    text-decoration: underline;
-    text-decoration-color: #000000;
-    margin-left: 20px;
-    font-weight: bold;
-    float: left;
-}
-
-.img1_Switzerland {
-    border-radius: 10px;
-    float: left;
-    border-radius: 5px; 
-}
-
-.img2_Switzerland {
-    border-radius: 10px;
-    float: right;
-}
-
-.img3_Switzerland {
-    border-radius: 10px;
-    
-}
-
-
-.para1_Switzerland {
-    line-height: 1.6; 
-}
-
-
 /* Styles applied only to the "muco_begin_logan" main content */
 
 
