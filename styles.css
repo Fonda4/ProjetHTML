@@ -355,20 +355,16 @@ form button:hover {
 
 
 /* Styles applied only to the "fotue_tagne_ethan" main content */
-<<<<<<< Updated upstream
+
 .fotue_tagne_ethan h2{
-<<<<<<< HEAD
     color: #080245;
-=======
     border: bottom 3px solid rgb(2, 2, 86);
->>>>>>> e473804158e06a45f5ec15d4e4688ed2cb0188e5
-=======
-.page-fotue_tagne_ethan h2 {
-    color: #0056a3; /* Blue from French flag */
-    border-bottom: 3px solid #ef4135; /* Red from French flag */
-    padding-bottom: 5px;
->>>>>>> Stashed changes
 }
+.page-fotue_tagne_ethan h2 {
+    color: #0056a3; 
+    border-bottom: 3px solid #ef4135; 
+}
+
 .uk_flag{
     width: 220px;
     height: auto;
@@ -376,17 +372,7 @@ form button:hover {
     margin-bottom: 10px;
     border-radius: 8px;
     align-content: end; 
-<<<<<<< Updated upstream
-    
-
 }
-
-=======
-    @keyframes wave {
-
-}
-}
->>>>>>> Stashed changes
 .castel_uk{
     width: 220px;
     height: auto;
@@ -397,13 +383,12 @@ form button:hover {
     float: right;
     margin-right: 1cm;
 }
-<<<<<<< Updated upstream
+
 .Big-Ben{
     width: 300px;
     height: 200px;
 }
-=======
->>>>>>> Stashed changes
+
 /* Styles applied only to the "yawo_shoni" main content */
 .Flag_Switzerland {
     margin-top: 10px;
