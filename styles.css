@@ -232,6 +232,14 @@ form button:hover {
     padding: 10px;
     border-radius: 5px;
 }
+.cars_list img {
+    width: 220px;
+    height: auto;
+    margin-left: 1cm;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
 .cars_list h3 {
     color: #132f5b;
 }
