@@ -295,14 +295,7 @@ form button:hover {
     
 
 }
-.image1_uk{
-    width: 300px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius:10px ;
-    float: left;
-}
+
 .castel_uk{
     width: 220px;
     height: auto;
@@ -312,6 +305,10 @@ form button:hover {
     text-align: justify;
     float: right;
     margin-right: 1cm;
+}
+.Big-Ben{
+    width: 300px;
+    height: 200px;
 }
 /* Styles applied only to the "yawo_shoni" main content */
 .Flag_Switzerland {
