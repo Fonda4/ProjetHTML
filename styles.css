@@ -299,8 +299,8 @@ form button:hover {
     margin-bottom: 15px;    
 }
 .page-Abderrahmane_Ba h2{
-    color:green; /* Blue from French flag */
-    border-bottom: 3px solid yellow; /* Red from French flag */
+    color:green; 
+    border-bottom: 3px solid yellow; 
     padding-bottom: 5px;
 
 }
@@ -315,8 +315,8 @@ form button:hover {
 
 }
 .page-Abderrahmane_Ba dashed-line {
-  border-bottom: 2px dashed #555; /* dashed = ligne coupée */
-  padding-bottom: 8px;            /* espace entre texte et ligne */
+  border-bottom: 2px dashed #555; 
+  padding-bottom: 8px;            
   margin-bottom: 16px;
   height: 300px;
   width: 200px;
@@ -374,27 +374,27 @@ button:hover {
 
 .fill2 {
   background: linear-gradient(to right, green, yellow, red);
-  animation: grow2 2s 2s forwards; /* démarre après la première */
+  animation: grow2 2s 2s forwards; 
 }
 
 .fill3 {
   background: linear-gradient(to right, green, yellow, red);
-  animation: grow3 2s 4s forwards; /* démarre après la deuxième */
+  animation: grow3 2s 4s forwards; 
 }
 
 @keyframes grow1 {
   from { width: 0; }
-  to { width: 40%; } /* population 2000 */
+  to { width: 40%; } 
 }
 
 @keyframes grow2 {
   from { width: 0; }
-  to { width: 70%; } /* population 2010 */
+  to { width: 70%; } 
 }
 
 @keyframes grow3 {
   from { width: 0; }
-  to { width: 100%; } /* population 2023 */
+  to { width: 100%; } 
 }
 
 
