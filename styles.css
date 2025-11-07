@@ -172,6 +172,7 @@ form button:hover {
 
 .page-nathan_fondimare img {
     max-width: 100%;
+    max-height: auto;
     border-radius: 8px;
     border: 4px solid #ddd;
     margin-bottom: 15px;
@@ -349,33 +350,14 @@ form button:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin-bottom: 15px;
 }
-body {
-  background: linear-gradient(to bottom right, #f7fff7, #e0ffe0);
-}
-button {
-  transition: all 0.3s ease;
-}
-button:hover {
-  background-color: green;
-  color: white;
-  transform: scale(1.1);
-}
-
 
 
 
 
 /* Styles applied only to the "fotue_tagne_ethan" main content */
-<<<<<<< HEAD
-.fotue_tagne_ethan h2 {
-    border-bottom: 3px solid rgb(2, 2, 86);
-=======
 .fotue_tagne_ethan h2{
     border: bottom 3px solid rgb(2, 2, 86);
-    border-bottom: #011e37;
->>>>>>> 0d3489dd3c26210a7e2c1adc385fa408791f02dc
 }
-
 .uk_flag{
     width: 220px;
     height: auto;
@@ -415,7 +397,7 @@ button:hover {
 .h2_Switzerland {
     text-align: center;
     text-shadow: 2px 2px 4px;
-    height: 200px;
+    size: 200px;
     font-family: "Lucida Console", "Courier New", monospace;
     color: darkred;
     border: black;
@@ -423,64 +405,9 @@ button:hover {
 
 .h3_Switzerland {
     text-shadow: 4px 2px 4px;
-<<<<<<< HEAD
-    height: 200px;
-=======
-    size: 400px;
->>>>>>> 0d3489dd3c26210a7e2c1adc385fa408791f02dc
+    size: 200px;
     font-family: cursive;
 }
-
-.h4_Switzerland {
-    text-shadow: 4px 2px 4px;
-    text-size-adjust: 400px;
-    font-family: cursive;
-}
-
-.li1_Switzerland {
-    text-decoration: underline;
-    text-decoration-color: #000000;
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-.li2_Switzerland {
-    text-decoration: underline;
-    text-decoration-color: #000000;
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-.li3_Switzerland {
-    text-decoration: underline;
-    text-decoration-color: #000000;
-    margin-left: 20px;
-    font-weight: bold;
-    float: left;
-}
-
-.img1_Switzerland {
-    border-radius: 10px;
-    float: left;
-    border-radius: 5px; 
-}
-
-.img2_Switzerland {
-    border-radius: 10px;
-    float: right;
-}
-
-.img3_Switzerland {
-    border-radius: 10px;
-    
-}
-
-
-.para1_Switzerland {
-    line-height: 1.6; 
-}
-
-
 /* Styles applied only to the "muco_begin_logan" main content */
 
 
