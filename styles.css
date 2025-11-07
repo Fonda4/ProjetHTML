@@ -18,6 +18,21 @@ body {
 @keyframes fadeIn {
   to { opacity: 1; }
 }
+.logo img {
+  transition: transform 1s ease-in-out;
+}
+
+.logo img:hover {
+  transform: rotate(360deg);
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.logo img {
+  animation: spin 3s linear infinite;
+}
 
 
 main {
@@ -210,7 +225,7 @@ form button:hover {
 
 /* Styles applied only to the 'marvin_christoph' main content */
 .h2_Marvin {
-    color: #132f5b;
+    color: #000000;
     border-bottom: 3px solid #ffd902c3;
     padding-bottom: 5px;
 }
@@ -253,6 +268,14 @@ form button:hover {
     padding: 10px;
     border-radius: 5px;
 }
+.cars_list img {
+    width: 220px;
+    height: auto;
+    margin-left: 1cm;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
 .cars_list h3 {
     color: #132f5b;
 }
@@ -272,6 +295,21 @@ form button:hover {
     color: #ffe600;
 }
 
+.link_Wiki {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.thead_Germany {
+    color: #000000;
+}
+
+.case-1 {
+   color: red;
+}
+.case-2 {
+   color: #ffd902e3;
+}
 /* Styles applied only to the 'Abderrahmane_Ba' main content */
 .page-Abderrahmane_Ba .flag img{
     width: 300px;
@@ -312,6 +350,7 @@ form button:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin-bottom: 15px;
 }
+
 
 
 
