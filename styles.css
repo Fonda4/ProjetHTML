@@ -189,7 +189,7 @@ form button:hover {
 
 /* Styles applied only to the 'marvin_christoph' main content */
 .h2_Marvin {
-    color: #132f5b;
+    color: #000000;
     border-bottom: 3px solid #ffd902c3;
     padding-bottom: 5px;
 }
@@ -251,6 +251,21 @@ form button:hover {
     color: #ffe600;
 }
 
+.link_Wiki {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.thead_Germany {
+    color: #000000;
+}
+
+.case-1 {
+   color: red;
+}
+.case-2 {
+   color: #ffd902e3;
+}
 /* Styles applied only to the 'Abderrahmane_Ba' main content */
 .page-Abderrahmane_Ba .flag img{
     width: 300px;
