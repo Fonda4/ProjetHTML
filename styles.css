@@ -195,32 +195,11 @@ form button:hover {
 
 }
 
+.page-nathan_fondimare_food a{
+    color: #016d13;
+}
 .page-nathan_fondimare_table {
     margin-top: 10%;
-}
-
-
-.page-nathan_fondimare_food .image-avec-source {
-    float: right;
-    margin-left: 2%;
-    max-width: 220px; 
-}
-
-.page-nathan_fondimare_food .image-avec-source img {
-    float: none;
-    margin-left: 0; 
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    max-height: 200px; 
-}
-
-.page-nathan_fondimare_food .image-avec-source a {
-    display: block; 
-    text-align: right; 
-    font-style: italic;
-    margin-top: 4px; 
-    color: #016d13; 
 }
 
 /* Styles applied only to the 'marvin_christoph' main content */
@@ -310,7 +289,6 @@ form button:hover {
 .case-2 {
    color: #ffd902e3;
 }
-
 /* Styles applied only to the 'Abderrahmane_Ba' main content */
 .page-Abderrahmane_Ba .flag img{
     width: 300px;
@@ -321,8 +299,8 @@ form button:hover {
     margin-bottom: 15px;    
 }
 .page-Abderrahmane_Ba h2{
-    color:green; /* Blue from French flag */
-    border-bottom: 3px solid yellow; /* Red from French flag */
+    color:green; 
+    border-bottom: 3px solid yellow; 
     padding-bottom: 5px;
 
 }
@@ -337,8 +315,8 @@ form button:hover {
 
 }
 .page-Abderrahmane_Ba dashed-line {
-  border-bottom: 2px dashed #555; /* dashed = ligne coupée */
-  padding-bottom: 8px;            /* espace entre texte et ligne */
+  border-bottom: 2px dashed #555; 
+  padding-bottom: 8px;            
   margin-bottom: 16px;
   height: 300px;
   width: 200px;
@@ -351,21 +329,82 @@ form button:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin-bottom: 15px;
 }
+body {
+  background: linear-gradient(to bottom right, #f7fff7, #e0ffe0);
+}
+button {
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.1);
+}
+.pop-growth {
+  max-width: 400px;
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+
+.year {
+  font-weight: bold;
+  color: green;
+  margin-top: 10px;
+}
+
+.bar {
+  background: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.fill {
+  height: 100%;
+  width: 0;
+  border-radius: 10px;
+  animation-fill-mode: forwards;
+}
+
+.fill1 {
+  background: linear-gradient(to right, green, yellow, red);
+  animation: grow1 2s forwards;
+}
+
+.fill2 {
+  background: linear-gradient(to right, green, yellow, red);
+  animation: grow2 2s 2s forwards; 
+}
+
+.fill3 {
+  background: linear-gradient(to right, green, yellow, red);
+  animation: grow3 2s 4s forwards; 
+}
+
+@keyframes grow1 {
+  from { width: 0; }
+  to { width: 40%; } 
+}
+
+@keyframes grow2 {
+  from { width: 0; }
+  to { width: 70%; } 
+}
+
+@keyframes grow3 {
+  from { width: 0; }
+  to { width: 100%; } 
+}
+
 
 
 
 
 /* Styles applied only to the "fotue_tagne_ethan" main content */
-
 .fotue_tagne_ethan h2{
-    color: #080245;
     border: bottom 3px solid rgb(2, 2, 86);
 }
-.page-fotue_tagne_ethan h2 {
-    color: #0056a3; 
-    border-bottom: 3px solid #ef4135; 
-}
-
 .uk_flag{
     width: 220px;
     height: auto;
@@ -373,7 +412,10 @@ form button:hover {
     margin-bottom: 10px;
     border-radius: 8px;
     align-content: end; 
+    
+
 }
+
 .castel_uk{
     width: 220px;
     height: auto;
@@ -384,12 +426,10 @@ form button:hover {
     float: right;
     margin-right: 1cm;
 }
-
 .Big-Ben{
     width: 300px;
     height: 200px;
 }
-
 /* Styles applied only to the "yawo_shoni" main content */
 .Flag_Switzerland {
     margin-top: 10px;
