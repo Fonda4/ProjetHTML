@@ -195,32 +195,11 @@ form button:hover {
 
 }
 
+.page-nathan_fondimare_food a{
+    color: #016d13;
+}
 .page-nathan_fondimare_table {
     margin-top: 10%;
-}
-
-
-.page-nathan_fondimare_food .image-avec-source {
-    float: right;
-    margin-left: 2%;
-    max-width: 220px; 
-}
-
-.page-nathan_fondimare_food .image-avec-source img {
-    float: none;
-    margin-left: 0; 
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    max-height: 200px; 
-}
-
-.page-nathan_fondimare_food .image-avec-source a {
-    display: block; 
-    text-align: right; 
-    font-style: italic;
-    margin-top: 4px; 
-    color: #016d13; 
 }
 
 /* Styles applied only to the 'marvin_christoph' main content */
@@ -350,6 +329,17 @@ form button:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin-bottom: 15px;
 }
+body {
+  background: linear-gradient(to bottom right, #f7fff7, #e0ffe0);
+}
+button {
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.1);
+}
 
 
 
@@ -405,60 +395,9 @@ form button:hover {
 
 .h3_Switzerland {
     text-shadow: 4px 2px 4px;
-    size: 400px;
+    size: 200px;
     font-family: cursive;
 }
-
-.h4_Switzerland {
-    text-shadow: 4px 2px 4px;
-    text-size-adjust: 400px;
-    font-family: cursive;
-}
-
-.li1_Switzerland {
-    text-decoration: underline;
-    text-decoration-color: #000000;
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-.li2_Switzerland {
-    text-decoration: underline;
-    text-decoration-color: #000000;
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-.li3_Switzerland {
-    text-decoration: underline;
-    text-decoration-color: #000000;
-    margin-left: 20px;
-    font-weight: bold;
-    float: left;
-}
-
-.img1_Switzerland {
-    border-radius: 10px;
-    float: left;
-    border-radius: 5px; 
-}
-
-.img2_Switzerland {
-    border-radius: 10px;
-    float: right;
-}
-
-.img3_Switzerland {
-    border-radius: 10px;
-    
-}
-
-
-.para1_Switzerland {
-    line-height: 1.6; 
-}
-
-
 /* Styles applied only to the "muco_begin_logan" main content */
 
 
