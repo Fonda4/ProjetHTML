@@ -357,6 +357,7 @@ form button:hover {
 /* Styles applied only to the "fotue_tagne_ethan" main content */
 .fotue_tagne_ethan h2{
     border: bottom 3px solid rgb(2, 2, 86);
+    border-bottom: #011e37;
 }
 .uk_flag{
     width: 220px;
