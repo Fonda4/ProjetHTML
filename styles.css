@@ -335,9 +335,60 @@ form button:hover {
 
 .h3_Switzerland {
     text-shadow: 4px 2px 4px;
-    size: 200px;
+    size: 400px;
     font-family: cursive;
 }
+
+.h4_Switzerland {
+    text-shadow: 4px 2px 4px;
+    text-size-adjust: 400px;
+    font-family: cursive;
+}
+
+.li1_Switzerland {
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.li2_Switzerland {
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.li3_Switzerland {
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    margin-left: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+.img1_Switzerland {
+    border-radius: 10px;
+    float: left;
+    border-radius: 5px; 
+}
+
+.img2_Switzerland {
+    border-radius: 10px;
+    float: right;
+}
+
+.img3_Switzerland {
+    border-radius: 10px;
+    
+}
+
+
+.para1_Switzerland {
+    line-height: 1.6; 
+}
+
+
 /* Styles applied only to the "muco_begin_logan" main content */
 
 
