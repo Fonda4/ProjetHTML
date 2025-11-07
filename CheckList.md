@@ -75,7 +75,7 @@
 
 ✅ Écrire le code et les commentaires en anglais
 
-❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
+❌ Valider le code sur [validator.w3.org](http://validator.w3.org/)
 
 👤 Partie Shoni (par membre)
 
