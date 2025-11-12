@@ -163,7 +163,6 @@ form button:hover {
    ===================================
 */
 
-/* Styles applied only to the 'nathan_fondimare' main content */
 .page-nathan_fondimare h2 {
     color: #0056a3; /* Blue from French flag */
     border-bottom: 3px solid #ef4135; /* Red from French flag */
@@ -172,14 +171,14 @@ form button:hover {
 
 .page-nathan_fondimare img {
     max-width: 100%;
-    max-height: auto;
+    height: auto;
     border-radius: 8px;
     border: 4px solid #ddd;
     margin-bottom: 15px;
 }
 
 .page-nathan_fondimare ul {
-    list-style-type: disc ;
+    list-style-type: disc;
     margin-left: 20px;
 }
 
@@ -187,20 +186,123 @@ form button:hover {
     color: #0056a3;
     text-decoration: none;
 }
-.page-nathan_fondimare_food img{
-    max-height: 200px;
-    float: right;
-    margin-left: 2% ;
-    text-align: justify;
 
-}
-
-.page-nathan_fondimare_food a{
-    color: #016d13;
-}
 .page-nathan_fondimare_table {
-    margin-top: 10%;
+    margin-top: 50px; /* Adjusted from 10% for better control */
 }
+
+/* ===================================
+   STYLE FOR FOOD SECTION WITH SOURCES
+   =================================== 
+*/
+
+/* Container for Image + Source (floats right) */
+.page-nathan_fondimare_food .image-avec-source {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    max-width: 250px;
+}
+
+/* Food Image Style */
+.page-nathan_fondimare_food .image-avec-source img {
+    display: block;
+    max-height: 200px;
+    width: auto;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+}
+
+/* Source Link Style below food images */
+.page-nathan_fondimare_food .image-avec-source a {
+    display: block;
+    font-size: 11px;
+    color: #016d13;
+    margin-top: 5px;
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+.page-nathan_fondimare_food .image-avec-source a:hover {
+    text-decoration: underline;
+}
+
+/* ===================================
+   SLIDESHOW STYLES
+   ===================================
+*/
+
+/* Container: Flexbox pour aligner les slides et activer le scroll */
+.slideshow-container {
+  display: flex;
+  overflow-x: auto; /* Permet le défilement horizontal */
+  scroll-snap-type: x mandatory; /* Force l'arrêt sur une image */
+  scroll-behavior: smooth; /* Défilement doux */
+  
+  /* Optionnel : Cacher la barre de défilement (pour un look plus "app") */
+  -webkit-overflow-scrolling: touch; /* Pour la fluidité sur iOS */
+  gap: 10px; /* Petit espace entre les slides */
+  padding-bottom: 10px;
+}
+
+/* Cacher la barre de scroll (Optionnel - compatible Chrome/Safari/Opera) */
+.slideshow-container::-webkit-scrollbar {
+    display: none;
+}
+.slideshow-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Les Slides individuels */
+.mySlides {
+  display: block; /* On s'assure qu'ils sont visibles */
+  flex: 0 0 100%; /* Chaque slide prend 100% de la largeur du conteneur */
+  scroll-snap-align: center; /* L'image se cale au centre */
+  position: relative;
+}
+
+/* Ajustements des images dans les slides */
+.mySlides img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Légende (Text) */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box; /* Important pour que le padding ne dépasse pas */
+}
+
+.text a {
+    color: #ddd !important;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+/* Numérotation (1 / 3) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.3);
+  border-top-left-radius: 8px;
+}
+
+
 
 /* Styles applied only to the 'marvin_christoph' main content */
 .h2_Marvin {
