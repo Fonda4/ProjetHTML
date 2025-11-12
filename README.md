@@ -1,6 +1,5 @@
 # ProjetHTML
 
-
 1. Introduction
 
 Ce document décrit les spécifications du projet HTML ainsi que les critères d’évaluation.
@@ -58,8 +57,6 @@ Voici les critères qui seront pris en compte pour votre note :
    - Bonne utilisation des balises HTML5
    - Une feuille CSS externe
 3. Le code et les commentaires doivent être rédigés en anglais
-
-   - Le contenu peut être écrit dans n’importe quelle langue
 4. Validation du code via [validator.w3.org](http://validator.w3.org/) → très important !
 
    - Si la validation échoue → minimum -5 points sur 20
