@@ -1,5 +1,4 @@
 /* ===================================
-   COMMON STYLES (To be defined with your team )
    CSS comments must be in English 
    ===================================
 */
@@ -158,18 +157,17 @@ form button:hover {
 
 
 /* ===================================
-   SPECIFIC STYLES for [VOTRE PRENOM NOM] 
-   (Requirement 9: id or class for this page) 
+   SPECIFIC STYLES for [Fondimare Nathan] 
    ===================================
 */
 
-.page-nathan_fondimare h2 {
+.sheet-nathan_fondimare h2 {
     color: #0056a3; /* Blue from French flag */
     border-bottom: 3px solid #ef4135; /* Red from French flag */
     padding-bottom: 5px;
 }
 
-.page-nathan_fondimare img {
+.sheet-nathan_fondimare img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
@@ -177,27 +175,26 @@ form button:hover {
     margin-bottom: 15px;
 }
 
-.page-nathan_fondimare ul {
+.sheet-nathan_fondimare ul {
     list-style-type: disc;
     margin-left: 20px;
 }
 
-.page-nathan_fondimare a {
+.sheet-nathan_fondimare a {
     color: #0056a3;
     text-decoration: none;
 }
 
-.page-nathan_fondimare_table {
+.sheet-nathan_fondimare_table {
     margin-top: 50px; /* Adjusted from 10% for better control */
 }
 
-/* ===================================
+/* 
    STYLE FOR FOOD SECTION WITH SOURCES
-   =================================== 
 */
 
 /* Container for Image + Source (floats right) */
-.page-nathan_fondimare_food .image-avec-source {
+.sheet-nathan_fondimare_food .img-with-source {
     float: right;
     margin-left: 20px;
     margin-bottom: 15px;
@@ -206,7 +203,7 @@ form button:hover {
 }
 
 /* Food Image Style */
-.page-nathan_fondimare_food .image-avec-source img {
+.sheet-nathan_fondimare_food .img-with-source img {
     display: block;
     max-height: 200px;
     width: auto;
@@ -215,7 +212,7 @@ form button:hover {
 }
 
 /* Source Link Style below food images */
-.page-nathan_fondimare_food .image-avec-source a {
+.sheet-nathan_fondimare_food .img-with-source a {
     display: block;
     font-size: 11px;
     color: #016d13;
@@ -224,29 +221,27 @@ form button:hover {
     line-height: 1.2;
 }
 
-.page-nathan_fondimare_food .image-avec-source a:hover {
+.sheet-nathan_fondimare_food .img-with-source a:hover {
     text-decoration: underline;
 }
 
-/* ===================================
+/* 
    SLIDESHOW STYLES
-   ===================================
+   
 */
 
-/* Container: Flexbox pour aligner les slides et activer le scroll */
+
 .slideshow-container {
   display: flex;
-  overflow-x: auto; /* Permet le défilement horizontal */
-  scroll-snap-type: x mandatory; /* Force l'arrêt sur une image */
-  scroll-behavior: smooth; /* Défilement doux */
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory; 
+  scroll-behavior: smooth; 
   
-  /* Optionnel : Cacher la barre de défilement (pour un look plus "app") */
-  -webkit-overflow-scrolling: touch; /* Pour la fluidité sur iOS */
-  gap: 10px; /* Petit espace entre les slides */
+  -webkit-overflow-scrolling: touch; 
+  gap: 10px; 
   padding-bottom: 10px;
 }
 
-/* Cacher la barre de scroll (Optionnel - compatible Chrome/Safari/Opera) */
 .slideshow-container::-webkit-scrollbar {
     display: none;
 }
@@ -255,15 +250,13 @@ form button:hover {
     scrollbar-width: none;  /* Firefox */
 }
 
-/* Les Slides individuels */
 .mySlides {
-  display: block; /* On s'assure qu'ils sont visibles */
-  flex: 0 0 100%; /* Chaque slide prend 100% de la largeur du conteneur */
-  scroll-snap-align: center; /* L'image se cale au centre */
+  display: block; 
+  flex: 0 0 100%; 
+  scroll-snap-align: center;
   position: relative;
 }
 
-/* Ajustements des images dans les slides */
 .mySlides img {
     width: 100%;
     height: auto;
@@ -271,7 +264,6 @@ form button:hover {
     border-radius: 8px;
 }
 
-/* Légende (Text) */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -291,7 +283,6 @@ form button:hover {
     margin-top: 4px;
 }
 
-/* Numérotation (1 / 3) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -303,8 +294,11 @@ form button:hover {
 }
 
 
+/* ===================================
+   SPECIFIC STYLES for [marvin_christoph] 
+   ===================================
+*/
 
-/* Styles applied only to the 'marvin_christoph' main content */
 .h2_Marvin {
     color: #000000;
     border-bottom: 3px solid #ffd902c3;
