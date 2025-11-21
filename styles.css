@@ -1,5 +1,4 @@
 /* ===================================
-   COMMON STYLES (To be defined with your team )
    CSS comments must be in English 
    ===================================
 */
@@ -158,51 +157,148 @@ form button:hover {
 
 
 /* ===================================
-   SPECIFIC STYLES for [VOTRE PRENOM NOM] 
-   (Requirement 9: id or class for this page) 
+   SPECIFIC STYLES for [Fondimare Nathan] 
    ===================================
 */
 
-/* Styles applied only to the 'nathan_fondimare' main content */
-.page-nathan_fondimare h2 {
+.sheet-nathan_fondimare h2 {
     color: #0056a3; /* Blue from French flag */
     border-bottom: 3px solid #ef4135; /* Red from French flag */
     padding-bottom: 5px;
 }
 
-.page-nathan_fondimare img {
+.sheet-nathan_fondimare img {
     max-width: 100%;
-    max-height: auto;
+    height: auto;
     border-radius: 8px;
     border: 4px solid #ddd;
     margin-bottom: 15px;
 }
 
-.page-nathan_fondimare ul {
-    list-style-type: disc ;
+.sheet-nathan_fondimare ul {
+    list-style-type: disc;
     margin-left: 20px;
 }
 
-.page-nathan_fondimare a {
+.sheet-nathan_fondimare a {
     color: #0056a3;
     text-decoration: none;
 }
-.page-nathan_fondimare_food img{
-    max-height: 200px;
+
+.sheet-nathan_fondimare_table {
+    margin-top: 50px; /* Adjusted from 10% for better control */
+}
+
+/* 
+   STYLE FOR FOOD SECTION WITH SOURCES
+*/
+
+/* Container for Image + Source (floats right) */
+.sheet-nathan_fondimare_food .img-with-source {
     float: right;
-    margin-left: 2% ;
-    text-align: justify;
-
+    margin-left: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    max-width: 250px;
 }
 
-.page-nathan_fondimare_food a{
+/* Food Image Style */
+.sheet-nathan_fondimare_food .img-with-source img {
+    display: block;
+    max-height: 200px;
+    width: auto;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+}
+
+/* Source Link Style below food images */
+.sheet-nathan_fondimare_food .img-with-source a {
+    display: block;
+    font-size: 11px;
     color: #016d13;
-}
-.page-nathan_fondimare_table {
-    margin-top: 10%;
+    margin-top: 5px;
+    text-decoration: none;
+    line-height: 1.2;
 }
 
-/* Styles applied only to the 'marvin_christoph' main content */
+.sheet-nathan_fondimare_food .img-with-source a:hover {
+    text-decoration: underline;
+}
+
+/* 
+   SLIDESHOW STYLES
+   
+*/
+
+
+.slideshow-container {
+  display: flex;
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory; 
+  scroll-behavior: smooth; 
+  
+  -webkit-overflow-scrolling: touch; 
+  gap: 10px; 
+  padding-bottom: 10px;
+}
+
+.slideshow-container::-webkit-scrollbar {
+    display: none;
+}
+.slideshow-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.mySlides {
+  display: block; 
+  flex: 0 0 100%; 
+  scroll-snap-align: center;
+  position: relative;
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box; /* Important pour que le padding ne dépasse pas */
+}
+
+.text a {
+    color: #ddd !important;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.3);
+  border-top-left-radius: 8px;
+}
+
+
+/* ===================================
+   SPECIFIC STYLES for [marvin_christoph] 
+   ===================================
+*/
+
 .h2_Marvin {
     color: #000000;
     border-bottom: 3px solid #ffd902c3;
@@ -289,6 +385,54 @@ form button:hover {
 .case-2 {
    color: #ffd902e3;
 }
+
+
+.page_Marvin_Christoph .container {
+  position: relative;
+  width: 50%;
+}
+
+.page_Marvin_Christoph .Img_Cars {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.page_Marvin_Christoph .middle {
+  transition: .5s ease;
+  opacity: 0;
+  left : 60%;
+  top : 40%;
+  float: right;
+  text-align: center;
+}
+
+.page_Marvin_Christoph .container:hover .Img_Cars {
+  opacity: 0.3;
+}
+
+.page_Marvin_Christoph .container:hover .middle {
+  opacity: 1;
+}
+
+.page_Marvin_Christoph .text {
+  background-color: #231111b2;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+
+
+
+
+
 /* Styles applied only to the 'Abderrahmane_Ba' main content */
 .page-Abderrahmane_Ba .flag img{
     width: 300px;
