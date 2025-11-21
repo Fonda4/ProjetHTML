@@ -432,19 +432,18 @@ button:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
+    border: red;
     float: left;
     margin-right: 1cm;
     height: 200px;
 }
-
-
+ 
 .h2_Switzerland {
-    text-align: center;
-    text-shadow: 2px 2px 4px;
-    size: 200px;
-    font-family: "Lucida Console", "Courier New", monospace;
-    color: darkred;
-    border: black;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: large;
+    text-decoration-color: red;
+    
 }
 
 .h3_Switzerland {
