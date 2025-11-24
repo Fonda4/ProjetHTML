@@ -351,22 +351,19 @@ form button:hover {
     margin-bottom: 10px;
     border-radius: 8px;
 }
-.cars_list h3 {
-    color: #132f5b;
-}
-.cars_list .volkswagen {
+.cars_list .volkswagen h3{
     color: #ffd902c3;
 }
-.cars_list .bmw {
+.cars_list .bmw h3{
     color: #070b19;
 }
-.cars_list .mercedes {
+.cars_list .mercedes h3{
     color: #b1b1c0;
 }
-.cars_list .porsche {
+.cars_list .porsche h3{
     color: #000000;
 }
-.cars_list .audi {
+.cars_list .audi h3{
     color: #ffe600;
 }
 
@@ -378,7 +375,6 @@ form button:hover {
 .thead_Germany {
     color: #000000;
 }
-
 .case-1 {
    color: red;
 }
@@ -386,46 +382,31 @@ form button:hover {
    color: #ffd902e3;
 }
 
-
-.page_Marvin_Christoph .container {
-  position: relative;
-  width: 50%;
+.car-wrapper {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
 }
 
-.page_Marvin_Christoph .Img_Cars {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
+.car-wrapper .text {
+    opacity: 0;           
+    visibility: hidden;   
+    transition: opacity 0.3s ease-in-out; 
+    transform: translateX(-10px); 
+    transition: all 0.3s ease;
 }
 
-.page_Marvin_Christoph .middle {
-  transition: .5s ease;
-  opacity: 0;
-  left : 60%;
-  top : 40%;
-  float: right;
-  text-align: center;
-}
-
-.page_Marvin_Christoph .container:hover .Img_Cars {
-  opacity: 0.3;
-}
-
-.page_Marvin_Christoph .container:hover .middle {
-  opacity: 1;
+.car-wrapper img:hover + strong .text,
+.car-wrapper strong:hover .text {
+    opacity: 1;            
+    visibility: visible;   
+    transform: translateX(0px); 
 }
 
 .page_Marvin_Christoph .text {
-  background-color: #231111b2;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+    display: inline-block; 
+    white-space: nowrap;
 }
-
-
 
 
 
