@@ -586,7 +586,8 @@ button:hover {
 
 /* Styles applied only to the "fotue_tagne_ethan" main content */
 .fotue_tagne_ethan h2{
-    border: bottom 3px solid rgb(2, 2, 86);
+    border-bottom: 3px solid; 
+    color : rgb(2, 2, 86);
 }
 .uk_flag{
     width: 220px;
@@ -634,7 +635,6 @@ button:hover {
 
 .h3_Switzerland {
     text-shadow: 4px 2px 4px;
-    size: 200px;
     font-family: cursive;
 }
 /* Styles applied only to the "muco_begin_logan" main content */
