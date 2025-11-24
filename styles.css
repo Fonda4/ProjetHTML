@@ -396,7 +396,7 @@ form button:hover {
     transition: all 0.3s ease;
 }
 
-.car-wrapper img:hover + strong .text,
+.car-wrapper img:hover ~ strong .text,
 .car-wrapper strong:hover .text {
     opacity: 1;            
     visibility: visible;   
