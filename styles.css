@@ -273,7 +273,7 @@ form button:hover {
   width: 100%;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.6);
-  box-sizing: border-box; /* Important pour que le padding ne dépasse pas */
+  box-sizing: border-box;
 }
 
 .text a {
@@ -351,21 +351,58 @@ form button:hover {
     margin-bottom: 10px;
     border-radius: 8px;
 }
-.cars_list .volkswagen h3{
-    color: #ffd902c3;
+
+.cars_list li{
+    list-style: none;
+    padding: 8px 0;
+    margin-bottom: 12px;
 }
-.cars_list .bmw h3{
-    color: #070b19;
+
+/*for the box color*/
+.cars_list .volkswagen .car-wrapper .text { 
+    background-color: #ffd902; 
+    color: #000; 
+    border-radius:6px; 
+    padding:8px 14px; 
+    display:inline-block; 
 }
-.cars_list .mercedes h3{
-    color: #b1b1c0;
+.cars_list .bmw .car-wrapper .text { 
+    background-color: #070b19; 
+    color: #fff; 
+    border-radius:6px; 
+    padding:8px 14px; 
+    display:inline-block; 
 }
-.cars_list .porsche h3{
-    color: #000000;
+.cars_list .mercedes .car-wrapper .text { 
+    background-color: #b1b1c0; 
+    color: #000; 
+    border-radius:6px; 
+    padding:8px 14px; 
+    display:inline-block; 
 }
-.cars_list .audi h3{
-    color: #ffe600;
+.cars_list .porsche .car-wrapper .text { 
+    background-color: #000000; 
+    color: #fff; 
+    border-radius:6px; 
+    padding:8px 14px; 
+    display:inline-block; 
 }
+.cars_list .audi .car-wrapper .text { 
+    background-color: #ffe600; 
+    color: #000; 
+    border-radius:6px; 
+    padding:8px 14px; 
+    display:inline-block; 
+}
+
+/*for the link in the box*/
+.car-wrapper .text { 
+    color: inherit; 
+}
+.car-wrapper .text a { 
+    color: inherit; 
+}
+
 
 .link_Wiki {
     color: #ff0000;
@@ -381,31 +418,60 @@ form button:hover {
 .case-2 {
    color: #ffd902e3;
 }
+/*War Part*/
+
+.wars_list {
+    clear: both;
+    padding: 10px 0;
+}
+.wars_list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.wars_list h3 {
+    color: #070b19;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+.wars_list p {
+    color: #444;
+}
 
 .car-wrapper {
     display: flex;
-    align-items: center; 
-    gap: 20px; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.car-wrapper img {
+    margin: 0;
+    margin-right: 20px;
+    width: 220px;
+    height: auto;
+    cursor: pointer;
 }
 
 .car-wrapper .text {
-    opacity: 0;           
-    visibility: hidden;   
-    transition: opacity 0.3s ease-in-out; 
-    transform: translateX(-10px); 
-    transition: all 0.3s ease;
+    background-color: transparent;
+    color: inherit;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.32s ease-in-out;
+    position: static;
+    width: auto;
+    flex: 1 1 auto;
+    text-align: left;
 }
 
-.car-wrapper img:hover ~ strong .text,
-.car-wrapper strong:hover .text {
-    opacity: 1;            
-    visibility: visible;   
-    transform: translateX(0px); 
-}
-
-.page_Marvin_Christoph .text {
-    display: inline-block; 
-    white-space: nowrap;
+.car-wrapper:hover .text {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
 }
 
 
