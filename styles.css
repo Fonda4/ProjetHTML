@@ -298,7 +298,7 @@ form button:hover {
    SPECIFIC STYLES for [marvin_christoph] 
    ===================================
 */
-
+/*h2 Body*/
 .h2_Marvin {
     color: #000000;
     border-bottom: 3px solid #ffd902c3;
@@ -314,11 +314,13 @@ form button:hover {
     align-content: end;
 }
 
+/*Description Part*/
 .description_about_Germany {
     color: rgb(61, 61, 194);
     text-align: justify;
 }
-/*castle*/
+
+/*Castle Part*/
 .Neuschwanstein-container {
     overflow: hidden;
     margin-bottom: 30px;
@@ -336,6 +338,82 @@ form button:hover {
     color: rgb(61, 61, 194);
     text-align: justify;
 }
+
+/*Table Part*/
+.link_Wiki {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.thead_Germany {
+    color: #000000;
+}
+.case-1 {
+   color: red;
+}
+.case-2 {
+   color: #ffd902e3;
+}
+
+/*War Part*/
+.wars_list {
+    clear: both;
+    padding: 10px 0;
+}
+.wars_list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.wars_list h3 {
+    color: #070b19;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+.wars_list p {
+    color: #444;
+}
+
+/*cars part*/
+.car-wrapper .text { 
+    color: inherit; 
+}
+.car-wrapper .text a { 
+    color: inherit; 
+}
+.car-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+.car-wrapper img {
+    margin: 0;
+    margin-right: 20px;
+    width: 220px;
+    height: auto;
+    cursor: pointer;
+}
+.car-wrapper .text {
+    background-color: transparent;
+    color: inherit;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.32s ease-in-out;
+    position: static;
+    width: auto;
+    flex: 1 1 auto;
+    text-align: left;
+}
+.car-wrapper:hover .text {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
+}
+
 /*car list*/
 .cars_list {
     list-style-type: circle;
@@ -351,7 +429,6 @@ form button:hover {
     margin-bottom: 10px;
     border-radius: 8px;
 }
-
 .cars_list li{
     list-style: none;
     padding: 8px 0;
@@ -395,92 +472,10 @@ form button:hover {
     display:inline-block; 
 }
 
-/*for the link in the box*/
-.car-wrapper .text { 
-    color: inherit; 
-}
-.car-wrapper .text a { 
-    color: inherit; 
-}
-
-
-.link_Wiki {
-    color: #ff0000;
-    text-decoration: underline;
-}
-
-.thead_Germany {
-    color: #000000;
-}
-.case-1 {
-   color: red;
-}
-.case-2 {
-   color: #ffd902e3;
-}
-/*War Part*/
-
-.wars_list {
-    clear: both;
-    padding: 10px 0;
-}
-.wars_list ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-.wars_list h3 {
-    color: #070b19;
-    font-size: 1.2em;
-    margin-bottom: 5px;
-}
-.wars_list p {
-    color: #444;
-}
-
-.car-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-    width: 100%;
-}
-
-.car-wrapper img {
-    margin: 0;
-    margin-right: 20px;
-    width: 220px;
-    height: auto;
-    cursor: pointer;
-}
-
-.car-wrapper .text {
-    background-color: transparent;
-    color: inherit;
-    padding: 10px 20px;
-    border-radius: 5px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.32s ease-in-out;
-    position: static;
-    width: auto;
-    flex: 1 1 auto;
-    text-align: left;
-}
-
-.car-wrapper:hover .text {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(0px);
-}
-
-
-
-
-
-
-
-/* Styles applied only to the 'Abderrahmane_Ba' main content */
+/* ===================================
+   SPECIFIC STYLES for [Abderrahmane Ba] 
+   ===================================
+*/
 .page-Abderrahmane_Ba .flag img{
     width: 300px;
     height: 200px;
