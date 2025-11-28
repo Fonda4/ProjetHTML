@@ -133,15 +133,15 @@
 
 ❌✅ Ajouter une table
 
-❌✅ Ajouter une image (ex : drapeau)
+✅ Ajouter une image (ex : drapeau)
 
 ❌✅ Ajouter un formulaire avec au moins deux champs (commentaire)
 
 ❌✅ Ajouter une liste
 
-❌✅ Ajouter un lien externe
+✅ Ajouter un lien externe
 
-❌✅ Ajouter un id ou une class spécifique à ta page
+✅ Ajouter un id ou une class spécifique à ta page
 
 ❌✅ Définir un style CSS pour cet id ou class
 
