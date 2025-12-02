@@ -572,10 +572,15 @@ button:hover {
     height: 200px;
 }
 /* Styles applied only to the "yawo_shoni" main content */
+.body_Swit {
+    background-color: lightgray;
+}
 .Flag_Switzerland {
     max-width: 100%;
     height: auto;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 2cm;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -583,21 +588,31 @@ button:hover {
  
 .h2_Switzerland {
     text-transform: uppercase;
-    font-family: cursive;
-    font-size: large;
-    text-decoration-color: red;
-    
+    text-align: center;
+    font-size: 28px;   
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 .h3_Switzerland {
-    color: var(--color-secondary);
-    border-left: 5px solid var(--color-primary);
-    padding-left: 10px;
-    margin-top: 2cm;
-    margin-bottom: 1cm;
-    display: inline-block; /* Pour que la bordure ne prenne pas toute la largeur */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h4_Switzerland {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 20px;   
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.h5_Switzerland {
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 20px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 .hr1_Switzerland {
@@ -612,14 +627,45 @@ button:hover {
 }
 
 
-.img1_Switzerland, .img2_Switzerland, .img3_Switzerland {
+.img1_Switzerland {
     float: right;
-    max-width: 180px; /* Taille maximale pour l'image */
+    max-width: 180px; 
     height: auto;
-    margin: 0 0 1rem 1.5rem; /* Haut Droit Bas Gauche */
+    margin: 0 0 1rem 1.5rem; 
     border: 3px solid var(--color-secondary);
     border-radius: 8px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img2_Switzerland {
+    float: right;
+    max-width: 180px; 
+    height: auto;
+    margin: 0 0 1rem 1.5rem; 
+    border: 3px solid var(--color-secondary);
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img3_Switzerland {
+    float: right;
+    max-width: 180px; 
+    height: auto;
+    margin: 0 0 1rem 1.5rem; 
+    border: 3px solid var(--color-secondary);
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button-sho {
+    display: block;
+    width: 200px;
+    color: white;
+    margin: 0 auto;
+    background-color: red;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .table_Swit {
@@ -627,11 +673,9 @@ button:hover {
     border-collapse: collapse;
     margin: 2rem 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    background-color: var(--color-background);
     border-radius: 8px;
-    overflow: hidden; /* Pour que les coins arrondis s'appliquent */
+    overflow: hidden; 
 }
-
    /* Styles applied only to the "muco_begin_logan" main content */
 
 
