@@ -780,3 +780,7 @@ button:hover {
 	/* Il faut également répéter cette instruction pour tous les navigateurs */ 
 	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -o-border-radius: 10px;
 }
+
+.bloc{
+    margin-bottom: 30px;
+}
