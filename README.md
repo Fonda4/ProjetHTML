@@ -71,8 +71,8 @@ Voici les critères qui seront pris en compte pour votre note :
 
 | 🔧 Partie commune (à faire ensemble)                                  | Check                          |
 | ---------------------------------------------------------------------- | ------------------------------ |
-| Créer un en-tête commun (header)                                     | input type="checkbox" checked> |
-| Créer un menu commun avec effet hover (ex : passage bleu sur le menu) | input type="checkbox" checked> |
+| Créer un en-tête commun (header)                                     | <input type="checkbox" checked> |
+| Créer un menu commun avec effet hover (ex : passage bleu sur le menu) | <input type="checkbox" checked> |
 | Ajouter un lien vers chaque membre dans le menu                        | input type="checkbox" checked> |
 | Créer une feuille CSS commune                                         | input type="checkbox" checked> |
 | Ajouter les noms de tous les membres en bas de chaque page (footer)    | input type="checkbox" checked> |
