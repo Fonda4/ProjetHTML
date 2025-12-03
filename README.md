@@ -69,6 +69,3 @@ Voici les critères qui seront pris en compte pour votre note :
 9. Le pied de page doit contenir le prénom et le nom de tous les membres de l’équipe
 10. Dans le fichier CSS, chaque membre doit écrire son prénom et nom en haut de sa section CSS
 
-* 
-* 
-* Go to[ ] Page

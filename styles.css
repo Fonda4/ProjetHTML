@@ -438,23 +438,10 @@ form button:hover {
 }
 
 /*for the box color*/
-.cars_list .volkswagen .car-wrapper .text {
-    background-color: #ffd902;
-    color: #000;
-    border-radius:6px;
-    padding:8px 14px;
-    display:inline-block;
-}
+
 .cars_list .bmw .car-wrapper .text {
     background-color: #070b19;
     color: #fff;
-    border-radius:6px;
-    padding:8px 14px;
-    display:inline-block;
-}
-.cars_list .mercedes .car-wrapper .text {
-    background-color: #b1b1c0;
-    color: #000;
     border-radius:6px;
     padding:8px 14px;
     display:inline-block;
@@ -466,6 +453,13 @@ form button:hover {
     padding:8px 14px;
     display:inline-block;
 }
+.cars_list .volkswagen .car-wrapper .text {
+    background-color: #ffd902;
+    color: #000;
+    border-radius:6px;
+    padding:8px 14px;
+    display:inline-block;
+}
 .cars_list .audi .car-wrapper .text {
     background-color: #ffe600;
     color: #000;
@@ -473,6 +467,21 @@ form button:hover {
     padding:8px 14px;
     display:inline-block;
 }
+.cars_list .mercedes .car-wrapper .text {
+    background-color: #ee0000;
+    color: #ffffff;
+    border-radius:6px;
+    padding:8px 14px;
+    display:inline-block;
+}
+.cars_list .opel .car-wrapper .text {
+    background-color: #ee0000;
+    color: #ffffff;
+    border-radius:6px;
+    padding:8px 14px;
+    display:inline-block;
+}
+
 
 
 
