@@ -155,20 +155,20 @@
 
 ✅ Choisir un pays différent des autres membres
 
-❌✅ Ajouter une table
+✅ Ajouter une table
 
-❌✅ Ajouter une image (ex : drapeau)
+✅ Ajouter une image (ex : drapeau)
 
-❌✅ Ajouter un formulaire avec au moins deux champs (commentaire)
+✅ Ajouter un formulaire avec au moins deux champs (commentaire)
 
-❌✅Ajouter une liste
+✅Ajouter une liste
 
-❌✅ Ajouter un lien externe
+✅ Ajouter un lien externe
 
 ❌✅ Ajouter un id ou une class spécifique à ta page
 
-❌✅ Définir un style CSS pour cet id ou class
+✅ Définir un style CSS pour cet id ou class
 
-❌✅ Écrire le code et les commentaires en anglais
+✅ Écrire le code et les commentaires en anglais
 
-❌✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
+✅ Valider le code sur [validator.w3.org](http://validator.w3.org/)
