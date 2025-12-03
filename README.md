@@ -69,27 +69,3 @@ Voici les critères qui seront pris en compte pour votre note :
 9. Le pied de page doit contenir le prénom et le nom de tous les membres de l’équipe
 10. Dans le fichier CSS, chaque membre doit écrire son prénom et nom en haut de sa section CSS
 
-| 🔧 Partie commune (à faire ensemble)                                  | Check                          |
-| ---------------------------------------------------------------------- | ------------------------------ |
-| Créer un en-tête commun (header)                                     | <input type="checkbox" checked> |
-| Créer un menu commun avec effet hover (ex : passage bleu sur le menu) | <input type="checkbox" checked> |
-| Ajouter un lien vers chaque membre dans le menu                        | input type="checkbox" checked> |
-| Créer une feuille CSS commune                                         | input type="checkbox" checked> |
-| Ajouter les noms de tous les membres en bas de chaque page (footer)    | input type="checkbox" checked> |
-| Définir comment partager le code                                      | input type="checkbox" checked> |
-| Définir comment communiquer                                           | input type="checkbox" checked> |
-| Définir comment intégrer les pages ensemble                          | input type="checkbox" checked> |
-
-|                                                               | Abdul                          | Ethan                          | Marvin                         | Logan                          | Nathan                         | Shoni                          |
-| ------------------------------------------------------------- | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ |
-| Créer une page HTML nommée prenom_nom.html                  | input type="checkbox" checked> | input type="checkbox" checked> |                                | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> |
-| Choisir un pays différent des autres membres                 | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> |
-| Ajouter une table                                             | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> |
-| Ajouter une image (ex : drapeau)                              | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> |
-| Ajouter un formulaire avec au moins deux champs (commentaire) | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> |
-| Ajouter une liste                                             | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> |
-| Ajouter un lien externe                                       | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> |
-| Ajouter un id ou une class spécifique à ta page             | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> |
-| Définir un style CSS pour cet id ou class                    | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> |
-| Écrire le code et les commentaires en anglais                | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> |
-| Valider le code sur validator.w3.org                          | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> | input type="checkbox" checked> |
