@@ -735,19 +735,31 @@ button:hover {
    SPECIFIC STYLES for [muco_begin_logan] 
    ===================================
 */
-
-
+#maint{
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: larger;
+   font-weight: 200; 
+   font-style: oblique;
+   border-bottom: #ff0000;
+   font-size: 30px;
+}
+.h2b{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-bottom: #00235b;
+}
 .images{
     height: 100px;
     width: 120px;
 }
 
 #figure1{
-    height: 100px;
-    width: 150px;
+    height: 50%;
+    width: 30%;
 }
 
 #figure2{
-    height: 150px;  
-    width: 30px;
+    height: 300px;  
+    width: 200px;
 }
