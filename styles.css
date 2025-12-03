@@ -735,13 +735,16 @@ button:hover {
    SPECIFIC STYLES for [muco_begin_logan] 
    ===================================
 */
+.sheet-logan{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 #maint{
    text-align: center;
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: larger;
    font-weight: 200; 
    font-style: oblique;
-   border-bottom: #000000;
+   border-bottom-style: #000000;
    font-size: 30px;
    
 }
@@ -749,7 +752,7 @@ button:hover {
 .h2b{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    border-bottom: #00235b;
+    border-bottom: #0062ff;
 }
 .images{
     height: 100px;
