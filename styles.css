@@ -722,9 +722,23 @@ button:hover {
     border-radius: 8px;
     overflow: hidden; 
 }
-   /* Styles applied only to the "muco_begin_logan" main content */
+/* ===================================
+   SPECIFIC STYLES for [muco_begin_logan] 
+   ===================================
+*/
 
 
+.images{
+    height: 100px;
+    width: 120px;
+}
 
+#figure1{
+    height: 100px;
+    width: 150px;
+}
 
-
+#figure2{
+    height: 150px;  
+    width: 30px;
+}
