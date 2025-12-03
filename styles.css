@@ -752,7 +752,7 @@ button:hover {
 .h2b{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    border-bottom: #0062ff;
+    border-bottom: #26295e;
 }
 .images{
     height: 100px;
@@ -779,4 +779,8 @@ button:hover {
 	/* Ici l'angle aura une "importance" de 10 pixels pour les 4 angles.*/ 
 	/* Il faut également répéter cette instruction pour tous les navigateurs */ 
 	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -o-border-radius: 10px;
+}
+
+.bloc{
+    margin-bottom: 30px;
 }
