@@ -598,8 +598,9 @@ button:hover {
 
 
 /* Styles applied only to the "fotue_tagne_ethan" main content */
-.fotue_tagne_ethan h2{
-    border: bottom 3px solid rgb(2, 2, 86);
+.h2{
+    border-bottom: 3px solid #ff0f02c3;
+    padding-bottom: 5px;
 }
 .uk_flag{
     width: 220px;
