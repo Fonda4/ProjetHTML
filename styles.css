@@ -756,6 +756,7 @@ button:hover {
 
 #maint1{
     background-color: #000;
+    color: #ddd;
 }
 
 #maint2{
@@ -780,7 +781,6 @@ button:hover {
     justify-content: center;
     align-items: center;
     color: #ddd;
-    font-size: ;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
 
@@ -837,6 +837,7 @@ button:hover {
 }
 div #text{
     margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #funimg{
     width: 30%;

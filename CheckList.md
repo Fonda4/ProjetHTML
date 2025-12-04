@@ -1,24 +1,24 @@
-|    Partie commune (à faire ensemble)                                  | Check |
-| ----------------------------------------------------------            | ----- |
-| Créer un en-tête commun (header)                                      | ✅    |
+| Partie commune (à faire ensemble)                                     | Check |
+| ---------------------------------------------------------------------- | ----- |
+| Créer un en-tête commun (header)                                     | ✅    |
 | Créer un menu commun avec effet hover (ex : passage bleu sur le menu) | ✅    |
-| Ajouter un lien vers chaque membre dans le menu                       | ✅    |
+| Ajouter un lien vers chaque membre dans le menu                        | ✅    |
 | Créer une feuille CSS commune                                         | ✅    |
-| Ajouter les noms de tous les membres en bas de chaque page (footer)   | ✅    |
+| Ajouter les noms de tous les membres en bas de chaque page (footer)    | ✅    |
 | Définir comment partager le code                                      | ✅    |
 | Définir comment communiquer                                           | ✅    |
-| Définir comment intégrer les pages ensemble                           | ✅    |
+| Définir comment intégrer les pages ensemble                          | ✅    |
 
-|    | Abdul | Ethan | Marvin | Logan | Nathan | Shoni |
-| ---------------------------------------------------------- | ----- | ----- | ------ | ----- | ------ | ----- |
-| Créer une page HTML nommée prenom_nom.html                    | ✅    | ✅    | ✅     | ✅  | ✅     | ✅    |
-| Choisir un pays différent des autres membres                  | ✅    | ✅    | ✅     | ✅  | ✅     | ✅    |
-| Ajouter une table                                             | ✅    | ✅    | ✅     | ✅  | ✅     | ✅    |
-| Ajouter une image (ex : drapeau)                              | ✅    | ✅    | ✅     | ✅  | ✅     | ✅    |
-| Ajouter un formulaire avec au moins deux champs (commentaire) | ✅    | ✅    | ✅     | ❌  | ✅     | ✅    |
-| Ajouter une liste                                             | ✅    | ✅    | ✅     | ❌  | ✅     | ✅    |
-| Ajouter un lien externe                                       | ✅    | ✅    | ✅     | ❌  | ✅     | ✅    |
-| Ajouter un id ou une class spécifique à ta page               | ✅    | ✅    | ✅     | ❌  | ✅     | ✅    |
-| Définir un style CSS pour cet id ou class                     | ✅    | ✅    | ✅     | ❌  | ✅     | ✅    |
-| Écrire le code et les commentaires en anglais                 | ✅    | ✅    | ✅     | ❌  | ✅     | ✅    |
-| Valider le code sur validator.w3.org                          | ✅    | ✅    | ✅     | ❌  | ✅     | ✅    |
+|                                                               | Abdul | Ethan | Marvin | Logan | Nathan | Shoni |
+| ------------------------------------------------------------- | ----- | ----- | ------ | ----- | ------ | ----- |
+| Créer une page HTML nommée prenom_nom.html                  | ✅    | ✅    | ✅     | ✅    | ✅     | ✅    |
+| Choisir un pays différent des autres membres                 | ✅    | ✅    | ✅     | ✅    | ✅     | ✅    |
+| Ajouter une table                                             | ✅    | ✅    | ✅     | ✅    | ✅     | ✅    |
+| Ajouter une image (ex : drapeau)                              | ✅    | ✅    | ✅     | ✅    | ✅     | ✅    |
+| Ajouter un formulaire avec au moins deux champs (commentaire) | ✅    | ✅    | ✅     | ✅    | ✅     | ✅    |
+| Ajouter une liste                                             | ✅    | ✅    | ✅     | ✅    | ✅     | ✅    |
+| Ajouter un lien externe                                       | ✅    | ✅    | ✅     | ✅    | ✅     | ✅    |
+| Ajouter un id ou une class spécifique à ta page             | ✅    | ✅    | ✅     | ✅    | ✅     | ✅    |
+| Définir un style CSS pour cet id ou class                    | ✅    | ✅    | ✅     | ✅    | ✅     | ✅    |
+| Écrire le code et les commentaires en anglais                | ✅    | ✅    | ✅     | ✅    | ✅     | ✅    |
+| Valider le code sur validator.w3.org                          | ✅    | ✅    | ✅     | ✅    | ✅     | ✅    |
