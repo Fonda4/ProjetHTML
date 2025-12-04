@@ -488,109 +488,126 @@ form button:hover {
 
 
 
-/* Styles applied only to the 'Abderrahmane_Ba' main content */
+/* Styles appliqués uniquement au contenu principal de la page 'Abderrahmane_Ba' */
 .page-Abderrahmane_Ba .flag img{
-    width: 300px;
-    height: 200px;
-    border-radius: 8px;
-    border: 4px solid #ca3737;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin-bottom: 15px;    
+    width: 300px;                  /* Largeur de l'image du drapeau */
+    height: 200px;                 /* Hauteur de l'image du drapeau */
+    border-radius: 8px;            /* Bords arrondis */
+    border: 4px solid #ca3737;     /* Bordure rouge */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ombre légère */
+    margin-bottom: 15px;           /* Espace sous l'image */
 }
+
+/* Style des titres h2 */
 .page-Abderrahmane_Ba h2{
-    color:green; 
-    border-bottom: 3px solid yellow; 
-    padding-bottom: 5px;
-
+    color:green;                    /* Texte en vert */
+    border-bottom: 3px solid yellow;/* Ligne jaune sous le titre */
+    padding-bottom: 5px;            /* Espace entre le texte et la ligne */
 }
+
+/* Style des listes */
 .page-Abderrahmane_Ba ul{
-    list-style-type: square;
-    margin-left: 20px;
-
+    list-style-type: square;        /* Puces carrées */
+    margin-left: 20px;              /* Indentation des listes */
 }
+
+/* Style des liens */
 .page-Abderrahmane_Ba a{
-    color: green;
-    text-decoration: none;
-
+    color: green;                   /* Couleur verte */
+    text-decoration: none;          /* Pas de soulignement */
 }
+
+/* Élément personnalisé 'dashed-line' (probablement une classe manquante) */
 .page-Abderrahmane_Ba dashed-line {
-  border-bottom: 2px dashed #555; 
-  padding-bottom: 8px;            
-  margin-bottom: 16px;
-  height: 300px;
-  width: 200px;
-}
-.dashed-line img {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  margin-bottom: 15px;
+  border-bottom: 2px dashed #555;  /* Ligne en pointillés */
+  padding-bottom: 8px;             /* Espace interne */
+  margin-bottom: 16px;             /* Espace externe */
+  height: 300px;                   /* Hauteur définie */
+  width: 200px;                    /* Largeur définie */
 }
 
+/* Style des images à l'intérieur d'un élément .dashed-line */
+.dashed-line img {
+  width: 300px;                    /* Largeur de l’image */
+  height: 200px;                   /* Hauteur de l’image */
+  object-fit: cover;               /* Coupe propre pour garder le ratio */
+  border-radius: 8px;              /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Ombre douce */
+  margin-bottom: 15px;             /* Espacement inférieur */
+}
+
+/* Animation des boutons */
 button {
-  transition: all 0.3s ease;
+  transition: all 0.3s ease;       /* Animation douce en hover */
 }
 button:hover {
-  color: white;
-  transform: scale(1.1);
+  color: white;                    /* Texte devient blanc */
+  transform: scale(1.1);           /* Bouton légèrement agrandi */
 }
+
+/* Conteneur du graphique de croissance */
 .pop-growth {
-  max-width: 400px;
-  margin: 20px 0;
-  font-family: sans-serif;
+  max-width: 400px;                /* Largeur max du bloc */
+  margin: 20px 0;                  /* Marges verticales */
+  font-family: sans-serif;         /* Police lisible */
 }
 
+/* Style des années dans le graphique */
 .year {
-  font-weight: bold;
-  color: green;
-  margin-top: 10px;
+  font-weight: bold;               /* Texte en gras */
+  color: green;                    /* Couleur verte */
+  margin-top: 10px;                /* Espace au-dessus */
 }
 
+/* Conteneur des barres d'évolution */
 .bar {
-  background: #ddd;
-  height: 20px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: 10px;
+  background: #ddd;                /* Couleur de fond gris clair */
+  height: 20px;                    /* Hauteur de la barre */
+  border-radius: 10px;             /* Coins arrondis */
+  overflow: hidden;                /* Empêche le débordement des remplissages */
+  margin-bottom: 10px;             /* Espacement inférieur */
 }
 
+/* Base des barres animées */
 .fill {
-  height: 100%;
-  width: 0;
-  border-radius: 10px;
-  animation-fill-mode: forwards;
+  height: 100%;                    /* Remplit toute la hauteur de .bar */
+  width: 0;                        /* Commence à 0% (avant animation) */
+  border-radius: 10px;             /* Coins arrondis */
+  animation-fill-mode: forwards;   /* Garde la valeur finale après animation */
 }
 
+/* Première barre : animation immédiate */
 .fill1 {
-  background: linear-gradient(to right, green, yellow, red);
-  animation: grow1 2s forwards;
+  background: linear-gradient(to right, green, yellow, red); /* Dégradé */
+  animation: grow1 2s forwards;    /* Animation sur 2 secondes */
 }
 
+/* Deuxième barre : commence après 2 s */
 .fill2 {
   background: linear-gradient(to right, green, yellow, red);
-  animation: grow2 2s 2s forwards; 
+  animation: grow2 2s 2s forwards; /* Démarrage différé de 2s */
 }
 
+/* Troisième barre : commence après 4 s */
 .fill3 {
   background: linear-gradient(to right, green, yellow, red);
-  animation: grow3 2s 4s forwards; 
+  animation: grow3 2s 4s forwards; /* Démarrage différé de 4s */
 }
 
+/* Animation des largeurs */
 @keyframes grow1 {
   from { width: 0; }
-  to { width: 40%; } 
+  to { width: 40%; }               /* Année 1 : 40% */
 }
 
 @keyframes grow2 {
   from { width: 0; }
-  to { width: 70%; } 
+  to { width: 70%; }               /* Année 2 : 70% */
 }
 
 @keyframes grow3 {
   from { width: 0; }
-  to { width: 100%; } 
+  to { width: 100%; }              /* Année 3 : 100% */
 }
 
 
