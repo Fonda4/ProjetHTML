@@ -658,6 +658,7 @@ button:hover {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+/* THE TEXTS IN THE PAGE*/
  
 .h2_Switzerland {
     text-transform: uppercase;
@@ -687,6 +688,13 @@ button:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.h6_Switzerland {
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 20px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 .hr1_Switzerland {
     border: none;
@@ -700,6 +708,7 @@ button:hover {
 }
 
 
+/*THE PHOTOS */
 .img1_Switzerland {
     float: right;
     max-width: 180px; 
@@ -730,6 +739,8 @@ button:hover {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
 }
 
+/* THE BUTTON FOR THE COMMENT*/
+
 .button-sho {
     display: block;
     width: 200px;
@@ -741,6 +752,8 @@ button:hover {
     border-radius: 5px;
 }
 
+/* THE TABLE*/
+
 .table_Swit {
     width: 100%;
     border-collapse: collapse;
@@ -749,6 +762,202 @@ button:hover {
     border-radius: 8px;
     overflow: hidden; 
 }
+
+/*THE BOX OG THE TABLE*/
+
+.td1 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: red;
+}
+
+.td2 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.td3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: red;
+}
+
+.td4 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.td5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: red;
+}
+
+.td6 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+/* THE GRAPHIC*/
+
+.container1 {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    width: 90%;
+}
+
+.h1_1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.div2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 300px;
+    border-bottom: 3px solid #333;
+    border-left: 3px solid #333;
+    padding: 20px;
+    position: relative;
+}
+
+.div3 {
+    width: 80px;
+    background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px 10px;
+    position: relative;
+}
+
+@keyframes growBar {
+    from {
+        height: 0;
+    }
+}
+
+.div3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.div4 {
+    width: 80px;
+    background: linear-gradient(180deg, #f093fb 0%, #f5576c 100%);
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.div4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(240, 147, 251, 0.4);
+}
+
+.div5 {
+    width: 80px;
+    background: linear-gradient(180deg, #4facfe 0%, #00f2fe 100%);
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.div5:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(79, 172, 254, 0.4);
+}
+
+.div6 {
+    width: 80px;
+    background: linear-gradient(180deg, #43e97b 0%, #38f9d7 100%);
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.div6:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(67, 233, 123, 0.4);
+}
+
+.span1 {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+}
+
+.span2 {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #666;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.div7 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.div8 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div9 {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.div10 {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.div11 {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.div12 {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.span3 {
+    color: #666;
+    font-size: 14px;
+}
+
 /* ===================================
    SPECIFIC STYLES for [muco_begin_logan] 
    ===================================
