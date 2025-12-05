@@ -644,7 +644,11 @@ button:hover {
     width: 300px;
     height: 200px;
 }
+
+
 /* Styles applied only to the "yawo_shoni" main content */
+
+
 .body_Swit {
     background-color: lightgray;
 }
@@ -763,7 +767,7 @@ button:hover {
     overflow: hidden; 
 }
 
-/*THE BOX OG THE TABLE*/
+/*THE BOX Of THE TABLE*/
 
 .td1 {
     text-transform: uppercase;
